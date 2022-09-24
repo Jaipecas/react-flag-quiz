@@ -1,0 +1,15 @@
+.flagsGroupContainer{
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+    background-color: bisque;
+    gap: 10px;
+    padding: 15px;
+}
+
+.flagsGroupContainer div{
+    justify-self: center;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+}
+

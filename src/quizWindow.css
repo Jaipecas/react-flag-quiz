@@ -1,0 +1,5 @@
+.quizGrid {
+  display: grid;
+  grid-template: 0.2fr 2fr 0.5fr/ 1fr;
+}
+
